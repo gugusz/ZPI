@@ -6,6 +6,15 @@ class Silnia:
         return a * b
 
     def dzielenie(self, a, b):
+        """
+        hhgd
+        :param a:
+        :type a:
+        :param b:
+        :type b:
+        :return:
+        :rtype:
+        """
         b -= b - self.stala
         return a // b
 
@@ -15,5 +24,11 @@ class Matma:
         self._a = a
         self._b = b
 
+    @property
     def licz(self):
+        """
+        xcxc
+        :return: cxzc
+        :rtype: zxczxc
+        """
         return self._a + self._b
